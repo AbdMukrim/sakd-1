@@ -1,0 +1,51 @@
+.container {
+    height: 100vh;
+}
+
+.loginFormContainer {
+    background: white;
+    width: 24rem;
+}
+
+.loginFormLegend {
+    width: 14rem;
+    background: #dee2e6;
+}
+
+.errorMessage {
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    padding-left: 0.25rem;
+}
+
+.logincard-header{
+    justify-content: 'center';
+    align-items: 'center';
+    background-color: transparent !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+}
+
+.loginboxmsg{
+    text-align: center;
+}
+
+.loginblock{
+    background: url(../../assets/9232.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.96;
+}
+
+img{
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 640px){
+    .loginblock{
+        background: url(../../assets/9232.jpg);
+        background-size: cover;
+    }
+    img{
+        margin-left: 100px;
+    }
+}  

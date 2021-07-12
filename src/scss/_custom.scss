@@ -1,0 +1,10 @@
+// Here you can add other styles
+@media only screen and (max-width: 640px){
+    .c-header{
+        background: #3c4b64;
+    }
+    .c-header-nav-items.mx-2{
+        display: none;
+    }
+
+}
